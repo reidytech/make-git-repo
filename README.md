@@ -1,4 +1,4 @@
-#make-git-repo
+# make-git-repo
 
 ## Bash Script to quickly add a remote repository to github.
 
@@ -25,7 +25,7 @@
 	1. Make sure you have run the following on your local repository before pushing:
 		1. `git init`
 		2. `git add .`
-		3. `git checkout origin master`
+		3. `git commit -m "Your message for commit"`
 
 #### Todo:
 - [x] Write initial script
