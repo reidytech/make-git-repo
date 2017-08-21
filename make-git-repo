@@ -1,3 +1,5 @@
 curl -u $1 https://api.github.com/user/repos -d {\"name\":\"$2\"}
+#ARG1 is your username, ARG2 is repository name
 git remote add origin https://github.com/$1/$2.git
-git push origin master
+git push -u origin master
+#-u is for upstream
