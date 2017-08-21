@@ -21,7 +21,7 @@
 			1. **If origin is present:** `git remote rm origin`
 			2. **If destination is present:** `git remote rm destination`
 			3. **Check that you've cleared remote and destination:** `git remote -v`
-3. Runs `git push origin master` to your newly created repo
+3. Runs `git push -u origin master` to your newly created repo
 	1. Make sure you have run the following on your local repository before pushing:
 		1. `git init`
 		2. `git add .`
